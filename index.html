@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            height: 100vh;
+            background-color: rgb(181, 104, 104);
+        }
+
+        .all{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .timer {
+            font-size: 2em;
+            color: #333;
+        }
+        #sum{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="sum">Summer Olympics 2028</h1>
+    <div class="all">
+        <div class="timer" id="countdown">
+        <span id="time">  00:00:00</span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
